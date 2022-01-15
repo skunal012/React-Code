@@ -1,7 +1,7 @@
 import './App.css';
 import MyComponent from './Components/classBased';
 import FunctionalCmp from './Components/Functional';
-
+import LifeCycleDemo from './Components/LIFECycleDemo/LifeCycleDemo';
 function App() {
   return (
     <div className="App">
@@ -11,6 +11,8 @@ function App() {
       <MyComponent />
       <hr/>
       <FunctionalCmp />
+      <hr/>
+      <LifeCycleDemo />
     </div>
   );
 }
