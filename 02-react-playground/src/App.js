@@ -1,8 +1,9 @@
 import './App.css';
 import MyComponent from './Components/classBased';
 import FunctionalCmp from './Components/Functional';
-import JsxDemo from './Components/LearnJSX/JsxDemo';
-import LifeCycleDemo from './Components/LifeCycleDemo/LifeCycleDemo';
+import JsxDemo from './LearnJSX/JsxDemo';
+import LifeCycleDemo from './LifeCycle/LifeCycleDemo';
+import Parent from './PropsDemo/Parent';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,8 @@ function App() {
       <LifeCycleDemo />
       <hr/>
       <JsxDemo/>
+      <hr/>
+      <Parent/>
       <hr/>
     </div>
   );
