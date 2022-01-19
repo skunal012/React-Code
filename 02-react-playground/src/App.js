@@ -20,6 +20,7 @@ function App() {
       <hr/>
       <Parent/>
       <hr/>
+      
     </div>
   );
 }
