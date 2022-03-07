@@ -1,9 +1,11 @@
 import './App.css';
- import MyComponent from './Components/classBased';
- import FunctionalCmp from './Components/Functional';
- import JsxDemo from './LearnJSX/JsxDemo';
- import LifeCycleDemo from './LifeCycle/LifeCycleDemo';
- import Parent from './PropsDemo/Parent';
+import ErrorBoundaryDemo from './ErrorBoundaryDemo/ErrorBoundaryDemo';
+import ErrorBoundary from './HighOrderComponent/ErrorBoundary';
+//  import MyComponent from './Components/classBased';
+//  import FunctionalCmp from './Components/ Functional';
+//  import JsxDemo from './LearnJSX/JsxDemo';
+//  import LifeCycleDemo from './LifeCycle/LifeCycleDemo';
+//  import Parent from './PropsDemo/Parent';
 // import SequenceRow from './SequenceLogic/sequenceRow';
 function App() {
   return (
@@ -11,7 +13,10 @@ function App() {
       <h3>React Playground</h3>
       <hr>
       </hr>
-       <MyComponent />
+      <ErrorBoundary>
+      <ErrorBoundaryDemo/>
+      </ErrorBoundary>      
+       {/* <MyComponent />
       <hr/>
       <FunctionalCmp />
       <hr/>
@@ -20,7 +25,7 @@ function App() {
       <JsxDemo/>
       <hr/>
       <Parent/>
-      <hr/>
+      <hr/> */}
       {/* <SequenceRow /> */}
     </div>
   );

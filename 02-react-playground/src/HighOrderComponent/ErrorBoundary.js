@@ -2,7 +2,7 @@ import React from "react";
 
 class ErrorBoundary extends React.Component{
   state = {
-    errorMessage =" ",
+    errorMessage :"",
     hasError : false
   }
 
@@ -17,7 +17,7 @@ class ErrorBoundary extends React.Component{
     if(this.state.hasError){
       return <h2> Something Bad Happened</h2>
     } else{
-      {this.props.children}
+      return this.props.children
     }
   }
 }

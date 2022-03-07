@@ -1,11 +1,16 @@
 import React from "react";
 
 const ErrorBoundaryDemo = (props) =>{
-  return (
-    <div>
-      Error boundary working Fine...
-    </div>
-  )
+  let random = Math.random();
+  if(random > 0.6){
+    throw new Error("Something Bad Happened"); 
+  }else{
+    return (
+      <div>
+        Error boundary working Fine...
+      </div>
+    )
+  } 
 }
 
 export default ErrorBoundaryDemo;
