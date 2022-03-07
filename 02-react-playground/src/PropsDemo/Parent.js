@@ -24,7 +24,7 @@ class Parent extends React.Component{
     })
     return(
       <>
-      <div> Parent Component </div>  
+      <div> Props Demo - Parent Component </div>  
       <hr/>
       {persons}
       {/* {this.state.person.map((person) => {return <Child username={person.name} age={person.age}/>

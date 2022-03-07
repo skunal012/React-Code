@@ -4,7 +4,7 @@ const Child = (props) =>{
   console.log("PROPS :", props);
   return (
     <div>
-       Child Component
+       Props Demo - Child Component
        <p>User Name : {props.username}</p>
        <p>Age : {props.age}</p>
        <button onClick={() => props.nameChanged("Ajay")}> Change Name</button>

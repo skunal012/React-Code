@@ -1,16 +1,17 @@
 import './App.css';
-import MyComponent from './Components/classBased';
-import FunctionalCmp from './Components/Functional';
-import JsxDemo from './LearnJSX/JsxDemo';
-import LifeCycleDemo from './LifeCycle/LifeCycleDemo';
-import Parent from './PropsDemo/Parent';
+ import MyComponent from './Components/classBased';
+ import FunctionalCmp from './Components/Functional';
+ import JsxDemo from './LearnJSX/JsxDemo';
+ import LifeCycleDemo from './LifeCycle/LifeCycleDemo';
+ import Parent from './PropsDemo/Parent';
+// import SequenceRow from './SequenceLogic/sequenceRow';
 function App() {
   return (
     <div className="App">
       <h3>React Playground</h3>
       <hr>
       </hr>
-      <MyComponent />
+       <MyComponent />
       <hr/>
       <FunctionalCmp />
       <hr/>
@@ -20,7 +21,7 @@ function App() {
       <hr/>
       <Parent/>
       <hr/>
-      
+      {/* <SequenceRow /> */}
     </div>
   );
 }
